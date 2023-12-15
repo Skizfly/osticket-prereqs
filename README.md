@@ -9,7 +9,7 @@ In this workshop, I set up osTicket from scratch by installing the required file
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Computer)
+- Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
 - MySQL
@@ -20,8 +20,8 @@ In this workshop, I set up osTicket from scratch by installing the required file
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
+- Activate Internet Information Services (IIS)
+- Istall PHP Manager
 - Item 3
 - Item 4
 - Item 5
@@ -32,7 +32,7 @@ In this workshop, I set up osTicket from scratch by installing the required file
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Prior to the installation of any files, it is necessary to activate Internet Information Services (IIS). As we are installing osTicket locally, IIS is a prerequisite for its proper functioning. To enable IIS, access the Control Panel. Within the Control Panel, navigate to Programs and then Turn Windows Features On or Off. In this menu, expand Internet Information Services, further expand Web Management Tools, and activate IIS Management Console. Proceed to click and expand World Wide Web Services, and then expand Application Development Features. Within Application Development Features, enable CGI and confirm by clicking OK.
 </p>
 <br />
 
@@ -40,7 +40,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once IIS has been activated, proceed to download and install PHP Manager for IIS (PHPManagerforIIS_V1.5.0.msi) from the installation files folder. Following the installation of PHP Manager for IIS, download and install the Rewrite Module (rewrite_amd64_en-US.msi).
 </p>
 <br />
 
@@ -48,6 +48,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After enabling IIS, it's essential to download and install PHP Manager for IIS (PHPManagerforIIS_V1.5.0.msi) from the installation files folder. Following the installation of PHP Manager for IIS, and considering that PHP is a prerequisite, download and install the Rewrite Module (rewrite_amd64_en-US.msi). 
+
+After installing the Rewrite Module, create a new folder/directory named C:\PHP on the Windows (C:) drive. This new folder is necessary as PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) needs to be unzipped into this location. Extract all the contents from the zip folder into the C:\PHP folder.
 </p>
 <br />
