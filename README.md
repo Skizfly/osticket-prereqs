@@ -23,7 +23,7 @@ Installation files:<p>https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6
 - Install PHP Manager
 - Install MySQL
 - Change file permissions
-- Item 5
+- Install osTicket
 
 <h2>Installation Steps</h2>
 
