@@ -6,19 +6,17 @@
 In this workshop, I set up osTicket from scratch by installing the required files. Before proceeding with the ticketing system installation, a series of preliminary steps need to be completed. The entire process is carried out on a Windows 10 Pro virtual machine created on Azure.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines/Computer)
 - Remote Desktop
 - Internet Information Services (IIS)
+- MySQL
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10 Pro</b> (21H2)
 
 <h2>List of Prerequisites</h2>
 
